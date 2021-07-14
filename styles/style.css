@@ -325,13 +325,13 @@ footer {
         margin: 0;
         padding: 0;
     }
+    .header-title {
+        margin-bottom: 30px;
+    }
     .top-players{
         margin-top: 30px;
     }
-
-
-
-    nav {
-        display: none;
+    .highlights-title {
+        margin-bottom: 50px;
     }
 }
