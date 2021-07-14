@@ -1,0 +1,92 @@
+/*===============
+fonts
+ ================ */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* main style */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header styles */
+header {
+    background: #2D25A0;
+    padding: 42px 123px 80px 156px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul { 
+    padding: 0; 
+    list-style: none; 
+    display:flex;
+    text-align: center;
+  }
+
+nav li{
+    text-decoration: none;
+}
+nav a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-left: 30px;
+}
+
+nav li a:hover {
+    color: #E02C6D;
+}
+    
+.link-button button{
+    border: none;
+    background: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    width: 500;
+}
+
+.link-button a {
+    text-decoration: none;
+}
+
+.link-button {
+    padding: 10px 15px;
+    align-items: center;
+    background-color: #E02C6D;
+    border-radius: 5px;
+    border: none;
+}
+
+.link-button:hover {
+    color: #E02C6D;
+    box-shadow: inset 11em 0 0 0 #3DBAFD;
+    transition: box-shadow 1s;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 67px;
+}
+
+.header-title h1 {
+    color: #FFFFFF;
+    font-size: 64px;
+    margin-top: 0;
+    margin-bottom: 20px;
+
+}
+
+.header-banner img {
+    width: 556px;
+    height: 438px;
+
+
+}
